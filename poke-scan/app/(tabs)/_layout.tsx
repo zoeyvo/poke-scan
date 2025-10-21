@@ -27,20 +27,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="camera"
         options={{
-          title: "Explore",
+          title: "Camera",
           tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="paperplane.fill" color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="scan"
-        options={{
-          title: "Scan",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="qrcode" color={color} />
+            <IconSymbol size={28} name="camera.fill" color={color} />
           ),
         }}
       />
